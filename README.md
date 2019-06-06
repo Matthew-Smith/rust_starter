@@ -23,7 +23,8 @@ This has only been tested on OSX, any Linux or Windows specifics might be differ
    * If VSCode doesn't suggest plugins automatically check out the recommended extensions in `worspace.code-workspace`
 
 At this point you are all set to be able to debug! Either nvaigate to the debug panel in vscode and press the play button at the top. Or press F5 to compile and run.
-Try setting a breakpoint just inside the main function to ensure that you have
+
+Try setting a breakpoint just inside the main function and press `F5` to build and execute to ensure that you have everything working.
 
 ## Renaming the project
 After you have everything set up you might want to rename everything from `rust_starter` to your project name.
