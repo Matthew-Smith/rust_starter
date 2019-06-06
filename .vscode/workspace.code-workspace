@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "..//"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "vadimcn.vscode-lldb",
+      "rust-lang.rust",
+      "serayuzgur.crates",
+      "bungcip.better-toml"
+    ]
+  },
+  "settings": {
+    "debug.allowBreakpointsEverywhere": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "rust.build_on_save": true
+  }
+}
