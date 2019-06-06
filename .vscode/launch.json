@@ -7,11 +7,12 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug",
-      "program": "${workspaceFolder}/target/debug/rust_starter",
-      "args": [],
-      "cwd": "${workspaceFolder}",
-      "preLaunchTask": "build"
+      "name": "Cargo launch",
+      "cargo": {
+        "args": ["build"]
+      },
+      "program": "${cargo:program}",
+      "args": []
     }
   ]
 }
