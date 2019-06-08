@@ -7,7 +7,7 @@ This is a Rust starter repository, this branch shows a pretty basic REST api don
 
 At this point you are all set to be able to debug! Either navigate to the debug panel in vscode and press the play button at the top. Or press F5 to compile and run.
 
-Try setting a breakpoint just inside the `list` and navigating to http://localhost:8000/Matthew 
+Try setting a breakpoint just inside the `list` function and navigating to http://localhost:8000/Matthew 
 
 Check out the [Branches](#branches) section to see examples and setups doing different things
 
