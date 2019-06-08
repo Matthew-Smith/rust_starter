@@ -26,6 +26,8 @@ At this point you are all set to be able to debug! Either nvaigate to the debug 
 
 Try setting a breakpoint just inside the main function and press `F5` to build and execute to ensure that you have everything working.
 
+Check out the [Branches](#branches) section to see examples and setups doing different things
+
 ## Renaming the project
 After you have everything set up you might want to rename everything from `rust_starter` to your project name.
 Easiest way is to do a global search for rust_starter but mainly look in the following
@@ -35,3 +37,7 @@ Easiest way is to do a global search for rust_starter but mainly look in the fol
 
 # TODO
  * Make a debug docker container version of this so people don't have to install rust on their machine if they don't want
+
+# Branches
+* *master* - This branch, helps set up the most basic rust project with no special cargo dependencies
+* rocket-REST - Shows a basic hello world REST api done with Rocket
