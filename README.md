@@ -15,5 +15,5 @@ Check out the [Branches](#branches) section to see examples and setups doing dif
  * Make The add api accept a json object for the todo
 
 # Branches
- * master - Helps set up the most basic rust project with no special cargo dependencies
- * *rocket-REST* - This Banch, Shows a basic hello world REST api done with Rocket
+ * [master](https://github.com/Matthew-Smith/rust_starter) - Helps set up the most basic rust project with no special cargo dependencies
+ * [**rocket-REST**](https://github.com/Matthew-Smith/rust_starter/tree/rocket-REST) - This Banch, Shows a basic hello world REST api done with Rocket
