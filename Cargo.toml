@@ -5,6 +5,7 @@ authors = ["Matthew Smith"]
 edition = "2018"
 
 [dependencies]
+rocket = "0.4.1"
 
 [[bin]]
 name = "rust_starter"

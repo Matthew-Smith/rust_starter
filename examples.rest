@@ -1,0 +1,27 @@
+# This is a way to test the endpoints in vscode with this rest client:
+# https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+### 
+### add a todo called "make dinner"
+
+POST http://[::1]:8000/add
+content-type: text/plain
+
+make dinner
+
+### add a todo called "eat dinner"
+
+POST http://[::1]:8000/add
+content-type: text/plain
+
+eat dinner
+
+### add a todo called "clean dishes"
+
+POST http://[::1]:8000/add
+content-type: text/plain
+
+clean dishes
+
+### Get the todos
+
+GET http://[::1]:8000/Matthew
