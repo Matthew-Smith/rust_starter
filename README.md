@@ -16,4 +16,4 @@ Check out the [Branches](#branches) section to see examples and setups doing dif
 
 # Branches
  * [master](https://github.com/Matthew-Smith/rust_starter) - Helps set up the most basic rust project with no special cargo dependencies
- * [**rocket-REST**](https://github.com/Matthew-Smith/rust_starter/tree/rocket-REST) - This Banch, Shows a basic hello world REST api done with Rocket
+ * [**rocket-REST**](https://github.com/Matthew-Smith/rust_starter/tree/rocket-REST) - This Banch, Shows a basic todo REST api done with Rocket
