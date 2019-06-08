@@ -39,5 +39,6 @@ Easiest way is to do a global search for rust_starter but mainly look in the fol
  * Make a debug docker container version of this so people don't have to install rust on their machine if they don't want
 
 # Branches
-* *master* - This branch, helps set up the most basic rust project with no special cargo dependencies
-* rocket-REST - Shows a basic hello world REST api done with Rocket
+
+ * [**master**](https://github.com/Matthew-Smith/rust_starter) - This branch, helps set up the most basic rust project with no special cargo dependenciesdependencies
+ * [rocket-REST](https://github.com/Matthew-Smith/rust_starter/tree/rocket-REST) - Shows a basic todo REST api done with Rocket
