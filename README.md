@@ -9,7 +9,7 @@ Setting this up should give you a Rust project that has the following features f
 This has only been tested on OSX, any Linux or Windows specifics might be different.
 
 ## Setup Steps
-1. install rust `https://www.rust-lang.org/tools/install`
+1. install rust [rust-lang site](https://www.rust-lang.org/tools/install)
    * Make sure to add `source $HOME/.cargo/env` to your `.zshrc` if you use `zsh` or else the build task won't find `cargo`
 2. install rust language server (RLS) see most recent instructions [here](https://github.com/rust-lang/rls)
    * `rustup update`
@@ -19,7 +19,7 @@ This has only been tested on OSX, any Linux or Windows specifics might be differ
 4. For OSX/Linux install [CodeLLB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) extension (used for debugging rust code inside vscode)
    * I believe Windows will need [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) instead
 5. Open vscode and select `File -> Open Workspace` then navigate into `{location of this repo}/.vscode/` and select `workspace.code-workspace`
-   * If you are on mac and cannot see dot files press `shift+cmd+.` and they should show up
+   * If you are on mac and cannot see dot files / folders in the explorer press `shift+cmd+.` and they should show up
    * If VSCode doesn't suggest plugins automatically check out the recommended extensions in `worspace.code-workspace`
 
 At this point you are all set to be able to debug! Either nvaigate to the debug panel in vscode and press the play button at the top. Or press F5 to compile and run.
