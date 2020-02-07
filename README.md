@@ -8,7 +8,7 @@ You can play with the api right in vscode using the `examples.rest` file if you 
 
 At this point you are all set to be able to debug! Either navigate to the debug panel in vscode and press the play button at the top. Or press F5 to compile and run.
 
-Try setting a breakpoint just inside the [`hello`](./src/main.rs#L7) function and navigating to [http://localhost:8000/hello/Matthew/30]
+Try setting a breakpoint just inside the [`list`](./src/main.rs#L28) function and navigating to [http://localhost:8000/Matthew]
 
 Check out the [Branches](#branches) section to see examples and setups doing different things
 
@@ -17,4 +17,5 @@ Check out the [Branches](#branches) section to see examples and setups doing dif
 
 # Branches
  * [master](https://github.com/Matthew-Smith/rust_starter) - Helps set up the most basic rust project with no special cargo dependencies
- * [**rocket-REST**](https://github.com/Matthew-Smith/rust_starter/tree/rocket-REST) - This Banch, Shows a basic todo REST api done with Rocket
+ * [rocket-REST](https://github.com/Matthew-Smith/rust_starter/tree/rocket-REST) - A very simple single HTTP GET API done with [Rocket](https://rocket.rs/)
+ * [**todo-REST**](https://github.com/Matthew-Smith/rust_starter/tree/todo-REST) - This Branch, Shows a basic todo REST api done with [Rocket](https://rocket.rs/)
