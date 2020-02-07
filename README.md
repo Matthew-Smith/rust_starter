@@ -40,5 +40,6 @@ Easiest way is to do a global search for rust_starter but mainly look in the fol
 
 # Branches
 
- * [**master**](https://github.com/Matthew-Smith/rust_starter) - This branch, helps set up the most basic rust project with no special cargo dependenciesdependencies
- * [rocket-REST](https://github.com/Matthew-Smith/rust_starter/tree/rocket-REST) - Shows a basic todo REST api done with Rocket
+ * [**master**](https://github.com/Matthew-Smith/rust_starter) - This branch, helps set up the most basic rust project with no special cargo dependencies
+ * [rocket-REST](https://github.com/Matthew-Smith/rust_starter/tree/rocket-REST) - A very simple single HTTP GET API done with [Rocket](https://rocket.rs/)
+ * [todo-REST](https://github.com/Matthew-Smith/rust_starter/tree/todo-REST) - Shows a basic todo REST api done with [Rocket](https://rocket.rs/)
